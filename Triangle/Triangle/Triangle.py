@@ -1,0 +1,1 @@
+Aantal = raw_input("Voer een getal in ")
