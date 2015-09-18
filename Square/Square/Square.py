@@ -1,9 +1,7 @@
 size = int(raw_input("Enter a number: "))
 
-for i in range(size, 1, -1):
-    if i == size:
-        print (i*"*")+ (" "*(size-(i+1)))
+for i in range(size, 0, -1):
+    if i == size or i == 1:
+        print size*"*"
     else:
-        print (i*"*")+ (" "*(size-(i+1)))+("*")
-
-print size*"*"
+        print "*"+(size-2)*" "+"*"
