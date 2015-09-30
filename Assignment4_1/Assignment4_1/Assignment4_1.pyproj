@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>af8191d5-f270-4084-9414-c4cebc7a090a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Assignment4_1_C.py</StartupFile>
+    <StartupFile>Assignment4_1_A.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

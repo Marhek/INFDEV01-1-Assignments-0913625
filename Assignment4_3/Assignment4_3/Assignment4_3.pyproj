@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7329770a-ccd4-46ce-bb5c-df4bfded41a2</ProjectGuid>
+    <ProjectGuid>75bba473-d341-4ea9-940f-de897667d0fd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Assignment4_2_A.py</StartupFile>
+    <StartupFile>Assignment4_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Assignment4_2</Name>
-    <RootNamespace>Assignment4_2</RootNamespace>
+    <Name>Assignment4_3</Name>
+    <RootNamespace>Assignment4_3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,8 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assignment4_2_B.py" />
-    <Compile Include="Assignment4_2_A.py" />
+    <Compile Include="Assignment4_3.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

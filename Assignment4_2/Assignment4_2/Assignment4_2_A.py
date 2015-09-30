@@ -27,22 +27,22 @@ while a1 == False or a2 == False:
             a2 = True
 
 if p1 == "r" and p2 == "s":
-    print "Rock beats Scissors"
+    print "Rock crushes Scissors"
     print "Player 1 WINS!"
 elif p1 == "s" and p2 == "p":
-    print "Scissors beats Paper"
+    print "Scissors cuts Paper"
     print "Player 1 WINS!"
 elif p1 == "p" and p2 == "r":
-    print "Paper beats Rock"
+    print "Paper covers Rock"
     print "Player 1 WINS!"
 elif p2 == "r" and p1 == "s":
-    print "Rock beats Scissors"
+    print "Rock crushes Scissors"
     print "Player 2 WINS!"
 elif p2 == "s" and p1 == "p":
-    print "Scissors beats Paper"
+    print "Scissors cuts Paper"
     print "Player 2 WINS!"
 elif p2 == "p" and p1 == "r":
-    print "Paper beats Rock"
+    print "Paper covers Rock"
     print "Player 2 WINS!"
 else:
     print "It's a draw, nobody wins"

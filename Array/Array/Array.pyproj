@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7329770a-ccd4-46ce-bb5c-df4bfded41a2</ProjectGuid>
+    <ProjectGuid>12dc8ee2-80ab-46cb-8b57-fc81033f5357</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Assignment4_2_A.py</StartupFile>
+    <StartupFile>Array.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Assignment4_2</Name>
-    <RootNamespace>Assignment4_2</RootNamespace>
+    <Name>Array</Name>
+    <RootNamespace>Array</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,8 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assignment4_2_B.py" />
-    <Compile Include="Assignment4_2_A.py" />
+    <Compile Include="Array.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
