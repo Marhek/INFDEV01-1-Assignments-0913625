@@ -6,9 +6,9 @@ lower = False
 upper = False
 special = 0
 
-if count >= 15:
+if count >= 12:
     points += 3
-elif count >= 10:
+elif count >= 8:
     points += 2
 elif count >= 5:
     points += 1
