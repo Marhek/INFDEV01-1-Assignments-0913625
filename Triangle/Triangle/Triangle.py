@@ -1,4 +1,7 @@
 ﻿size = int(raw_input("Voer een getal in: "))
+string = ""
 
 for i in range(0,size):
-    print (i+1)*"*"
+    string += (i+1)*"*"+"\n"
+
+print string
