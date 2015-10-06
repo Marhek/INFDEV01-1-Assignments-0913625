@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>12dc8ee2-80ab-46cb-8b57-fc81033f5357</ProjectGuid>
+    <ProjectGuid>9fffb00d-88bc-46b2-8bec-fa3d322f49e9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Array.py</StartupFile>
+    <StartupFile>Circle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Array</Name>
-    <RootNamespace>Array</RootNamespace>
+    <Name>Circle</Name>
+    <RootNamespace>Circle</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Array.py" />
+    <Compile Include="Circle.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

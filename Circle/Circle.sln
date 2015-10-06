@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Array", "Array\Array.pyproj", "{12DC8EE2-80AB-46CB-8B57-FC81033F5357}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Circle", "Circle\Circle.pyproj", "{9FFFB00D-88BC-46B2-8BEC-FA3D322F49E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12DC8EE2-80AB-46CB-8B57-FC81033F5357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12DC8EE2-80AB-46CB-8B57-FC81033F5357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFFB00D-88BC-46B2-8BEC-FA3D322F49E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFFB00D-88BC-46B2-8BEC-FA3D322F49E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
