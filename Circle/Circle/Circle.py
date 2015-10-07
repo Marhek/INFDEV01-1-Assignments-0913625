@@ -13,9 +13,13 @@ for i in range(0,size*2):
             string += "*"
         elif (i == size/2 and j == size/2) or (i == size/2 and j == size+size/2):
             string += "0"
+        elif (i == (size/2)-1 and j == size/2) or (i == (size/2)-1 and j == size+size/2):
+            string += "_"
         elif i == size and j == size:
             string += "L"
         elif i == size+size/2 and (j > size/2 and j < size+size/2):
+            string += "-"
+        elif i == size+(size/2)-1 and (j == (size/2)-1 or j == (size+size/2)+1):
             string += "_"
         else:
             string += " "
