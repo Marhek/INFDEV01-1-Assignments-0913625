@@ -9,8 +9,14 @@ for i in range(0,size*2):
         dj = (j - size)**2
         dist = sqrt(di + dj)
 
-        if size > dist:
+        if size > dist and size-2 < dist:
             string += "*"
+        elif (i == size/2 and j == size/2) or (i == size/2 and j == size+size/2):
+            string += "0"
+        elif i == size and j == size:
+            string += "L"
+        elif i == size+size/2 and (j > size/2 and j < size+size/2):
+            string += "_"
         else:
             string += " "
 
