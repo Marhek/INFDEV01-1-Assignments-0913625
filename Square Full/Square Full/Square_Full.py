@@ -1,7 +1,8 @@
-size = int(raw_input("Enter a number: " ))
+﻿size = int(raw_input("Enter a number: " ))
 string = ""
 
 for i in range(size,0,-1):
-    string += size*"*"+"\n"
-
+    for j in range(size,0,-1):
+        string += "*"
+    string += "\n"
 print string
